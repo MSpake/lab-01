@@ -26,6 +26,11 @@ footer {
     clear: both;
 }
 
+p {
+    position: relative;
+    top: 45%;
+}
+
 @media(min-width: 768px) {
     body {
         max-width: 960px;
