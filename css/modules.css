@@ -1,0 +1,7 @@
+header,
+aside,
+div,
+footer {
+    border: 1px solid grey;
+    background-color: lightgray;
+}
