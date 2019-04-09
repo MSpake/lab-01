@@ -41,7 +41,7 @@ footer {
     background-color: #ebebeb;
 }
 
-@media(min-width: 768px) {
+@media(min-width: 768px) and (max-width: 1279px) {
     #a {
         background-color: #294d2b;
     }
@@ -68,5 +68,35 @@ footer {
     }
     #i {
         background-color: #b0c9b2;
+    }
+}
+
+@media(min-width: 1280px) {
+    #a {
+        background-color: #49294d;
+    }
+    #b {
+        background-color: #59325c;
+    }
+    #c {
+        background-color: #673d6e;
+    }
+    #d {
+        background-color: #6c4775;
+    }
+    #e {
+        background-color: #7d5980;
+    }
+    #f {
+        background-color: #86698a;
+    }
+    #g {
+        background-color: #9c7e9c;
+    }
+    #h {
+        background-color: #b396ae;
+    }
+    #i {
+        background-color: #c9b0c6;
     }
 }
