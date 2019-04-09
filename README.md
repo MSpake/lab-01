@@ -12,4 +12,4 @@ Mobile Layout:
   
 
 Desktop Layout:  
-<img src="https://github.com/MSpake/lab-01/blob/master/assets/desktop-view.png" width="600">
+<img src="https://github.com/MSpake/lab-01/blob/master/assets/desktop-view.png" width="800">
