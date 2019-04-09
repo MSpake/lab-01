@@ -5,3 +5,13 @@ footer {
     border: 1px solid grey;
     background-color: lightgray;
 }
+
+@media(min-width: 768px) {
+    header,
+    aside,
+    div,
+    footer {
+        border: 1px solid grey;
+        background-color: bisque;
+    }
+}

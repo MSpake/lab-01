@@ -1,3 +1,8 @@
+body {
+    min-width: 300px;
+    margin: auto;
+}
+
 header {
     height: 75px;
 }
@@ -19,4 +24,38 @@ aside {
 footer {
     height: 80px;
     clear: both;
+}
+
+@media(min-width: 768px) {
+    body {
+        max-width: 960px;
+        margin: auto;
+    }
+    header {
+        height: 100px;
+    }
+    aside {
+        width: 20%;
+        height: 600px;
+        float: left;
+    }
+    section,
+    footer {
+        width: 80%;
+        float: right;
+    }
+    #two>div {
+        height: 200px;
+        width: 50%;
+        float: left;
+    }
+    #four>div {
+        height: 250px;
+        width: 25%;
+        float: left;
+    }
+    footer {
+        height: 150px;
+        clear: none;
+    }
 }
