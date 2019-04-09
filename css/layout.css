@@ -1,0 +1,57 @@
+header {
+    height: 75px;
+}
+
+aside {
+    height: 150px;
+}
+
+#two>div {
+    height: 125px;
+}
+
+#four>div {
+    height: 250px;
+    width: 50%;
+    float: left;
+}
+
+footer {
+    height: 80px;
+    clear: both;
+}
+
+p {
+    position: relative;
+    top: 45%;
+}
+
+@media(min-width: 768px) {
+    header {
+        height: 100px;
+    }
+    aside {
+        width: 20%;
+        height: 600px;
+        float: left;
+    }
+    section,
+    footer {
+        width: 80%;
+        float: right;
+    }
+    #two>div {
+        height: 200px;
+        width: 50%;
+        float: left;
+    }
+    #four>div {
+        height: 250px;
+        width: 25%;
+        float: left;
+    }
+    footer {
+        height: 150px;
+        clear: none;
+    }
+}
