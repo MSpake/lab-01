@@ -1,3 +1,8 @@
+body {
+    display: flex;
+    flex-flow: column wrap;
+}
+
 header {
     height: 75px;
 }
@@ -10,15 +15,18 @@ aside {
     height: 125px;
 }
 
+#four {
+    display: flex;
+    flex-flow: row wrap;
+}
+
 #four>div {
     height: 250px;
     width: 50%;
-    float: left;
 }
 
 footer {
     height: 80px;
-    clear: both;
 }
 
 p {
@@ -27,31 +35,33 @@ p {
 }
 
 @media(min-width: 768px) {
+    body {
+        flex-flow: row wrap;
+    }
     header {
         height: 100px;
+        flex: 1 100%;
     }
     aside {
-        width: 20%;
         height: 600px;
-        float: left;
+        flex: 1;
     }
-    section,
-    footer {
-        width: 80%;
-        float: right;
+    main {
+        flex: 4;
+    }
+    #two,
+    #four {
+        display: flex;
     }
     #two>div {
         height: 200px;
-        width: 50%;
-        float: left;
+        flex: 1;
     }
     #four>div {
         height: 250px;
-        width: 25%;
-        float: left;
+        flex: 1;
     }
     footer {
         height: 150px;
-        clear: none;
     }
 }
